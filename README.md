@@ -36,5 +36,7 @@ gcc -o program program.c
 - Child implements the sequence algorithm
 - Parent uses `wait()` for child completion
 
+## Sample Output
+
 <img width="275" height="294" alt="image" src="https://github.com/user-attachments/assets/fc86feca-f72f-43ab-b257-d293f6dd3b5c" />
 
