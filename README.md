@@ -1,4 +1,4 @@
-# Collatz Conjecture - Fork & Child Process Implementation
+# Fork & Sequence Calculator
 
 ## Description
 Write a C program which forks the parent & has the child implement in C the following sequence:
@@ -11,11 +11,9 @@ This sequence is defined below:
 
 ## Example
 ```
+For example:
 Input: n = 8
 Output: 8, 4, 2, 1
-
-Input: n = 11
-Output: 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
 ```
 
 ## Requirements
@@ -25,15 +23,15 @@ Output: 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1
 
 ## Compilation
 ```bash
-gcc -o collatz collatz.c
+gcc -o program program.c
 ```
 
 ## Usage
 ```bash
-./collatz <positive_integer>
+./program <positive_integer>
 ```
 
-## Implementation Notes
+## Implementation
 - Use `fork()` to create child process
-- Child process implements the Collatz sequence algorithm
-- Parent process uses `wait()` to wait for child completion
+- Child implements the sequence algorithm
+- Parent uses `wait()` for child completion
