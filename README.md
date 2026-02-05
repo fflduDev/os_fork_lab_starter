@@ -23,12 +23,12 @@ Output: 8, 4, 2, 1
 
 ## Compilation
 ```bash
-gcc -o program program.c
+gcc -o forkLab.exe forkLab.c
 ```
 
 ## Usage
 ```bash
-./program <positive_integer>
+./forkLab.exe <positive_integer>
 ```
 
 ## Implementation
